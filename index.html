@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter a city name" id="search_input">
+
+                <button id="search_position" class="btn btn-search">
+                    <svg class="icons_btn">
+                        <use xlink:href="icons/sprite.svg#geo-alt"></use>
+                    </svg>
+                </button>
+                <button id="search_button" class="btn btn-search">
+                    <svg class="icons_btn">
+                        <use xlink:href="icons/sprite.svg#search"></use>
+                    </svg>
+                </button>
+
+            </div>
+            <div class="error"></div>
+            <div class="weather_data">
+                <!-- <img class="weather_img" src="icons/animated/clear-day.svg" alt="weather-img">
+                <div class="temp">25<span class="temp_unit">°C</span></div>
+                <div class="city">Current citys</div>
+                <div class="informtion">
+                    <div class="info humidity">
+                        <div class="icon">
+                            <svg class="icons">
+                                <use xlink:href="icons/sprite.svg#humidity-svgrepo-com"></use>
+                            </svg>
+                        </div>
+                        <div class="info_text">20%</div>
+                    </div>
+                    <div class="info windspeed">
+                        <div class="icon">
+                            <svg class="icons">
+                                <use xlink:href="icons/sprite.svg#wind"></use>
+                            </svg>
+                        </div>
+                        <div class="info_text">11KM/h</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
